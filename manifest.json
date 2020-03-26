@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"name": "Multi Image Viewer for Trello",
+	"version": "1.0",
+
+	"description": "Allows user to view multiple, large images simultaneously",
+
+	"icons": {
+		"64": "icons/icon.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["https://trello.com/*"],
+			"js": ["imageViewerForTrello.js"]
+		}
+	],
+
+	"applications": {
+		"gecko": {
+			"id": "artmole.niko@gmail.com"
+		}
+	}
+
+}
