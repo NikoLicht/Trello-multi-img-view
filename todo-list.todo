@@ -1,0 +1,12 @@
+Version 0.1
+
+[x] make general delayed action function
+[ ] make general delayed action return a promise
+[ ] make all main functions return promise
+[ ] solve clicking on images / disable clicks on 'window-overlay'
+[ ] add names to images
+[ ] clear images on closing view
+[ ] make images bigger upon click
+[x] make images wider if they are flat at not tall.
+[ ] make slider to adjust image size (of those that are not already full width)
+[-] handle Keys, 'Escape', ArrowLeft, ArrowRight
